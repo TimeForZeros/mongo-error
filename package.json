@@ -1,0 +1,17 @@
+{
+  "name": "mongo-error",
+  "version": "1.0.0",
+  "description": "demo of app crash on invalid creds",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "regular": "node regular.js",
+    "invalid": "node invalid.js",
+    "cleanup": "node cleanup.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@image-metrics/im-ws-repository": "^4.8.0"
+  }
+}
